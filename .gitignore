@@ -1,0 +1,50 @@
+# Gradle files
+proj.androi/.idea
+proj.android/.gradle/
+proj.android/build
+proj.android/app/.cxx
+proj.android/app/.cxx/*
+proj.android/build/*
+
+# Local configuration file (sdk path, etc)
+proj.android/local.properties
+
+# Log/OS Files
+proj.android/*.log
+
+# Android Studio generated files and folders
+proj.android/captures/
+proj.android/.externalNativeBuild/
+proj.android/.cxx/
+proj.android/*.apk
+proj.android/output.json
+
+# IntelliJ
+proj.android/*.iml
+proj.android/.idea/
+proj.android/misc.xml
+proj.android/deploymentTargetDropDown.xml
+proj.android/render.experimental.xml
+
+# Keystore files
+proj.android/*.jks
+proj.android/*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+proj.android/google-services.json
+
+# Android Profiling
+proj.android/*.hprof
+
+ios-build/bin
+ios-build/build
+ios-build/lib
+ios-build/TurboRace.build
+ios-build/Release-iphonesimulator
+ios-build/Debug-iphonesimulator
+
+.DS_Store
+.cocos-project.json
+cocos2d
+proj.linux
+proj.win32

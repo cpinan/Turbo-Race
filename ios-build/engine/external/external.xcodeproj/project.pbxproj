@@ -1,0 +1,2997 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B3DEDBC5496E464F9FDA036D /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 429BBC6B1F41465FAAFAC079 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				17A0F3E2001BDC50225EA799 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		B6C4018FC5844557AAC76A2B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4DF169CBDCE34E8298FABFE9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3C311E80FBF10A15D8903A39 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				0E87385AE18948E4A8DE3309 /* PBXTargetDependency */,
+				CB23A0EC962B4F4691CBE41F /* PBXTargetDependency */,
+				E377B8CF2C2648E789AC4245 /* PBXTargetDependency */,
+				BEE456391FBB49299E3E6422 /* PBXTargetDependency */,
+				CB4247163E534F97B32C7D15 /* PBXTargetDependency */,
+				90A99BE3BF244E519C364EB1 /* PBXTargetDependency */,
+				0F6C66ABD53C40218A74DF2D /* PBXTargetDependency */,
+				15A0F0B3388B4BE49BEC69DB /* PBXTargetDependency */,
+				F4E1D6D743CF4F3F83000D8E /* PBXTargetDependency */,
+				6129FE453F0844E9B2006316 /* PBXTargetDependency */,
+				8ED855F1C0404A28B5DEC593 /* PBXTargetDependency */,
+				B29E0B631E9F4E749CAB75F0 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0AF45AF03B1F41F3A8313D0E /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 20B505CC824541C589EE8AAB /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/CMakeLists.txt */; };
+		1099FCF48740423394F98C95 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXBuildFile; fileRef = 8B35CC75A05A40BAB17648E9 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/edtaa3func/edtaa3func.cpp */; };
+		16ACB540B33E47D69C3042E6 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXBuildFile; fileRef = E7DE1D414E3E4466A9E5C572 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourCommon.cpp */; };
+		1B6480BD6A634277900995FB /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E19EF0BC79034B3E9FFB6949 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/edtaa3func/CMakeLists.txt */; };
+		1D03E72C658743198E1D401E /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 8B0A81B38571484D93F8D8A9 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */; };
+		1F03DF8A854F460ABAA2A278 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 523B954F7363411E8DD820B4 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */; };
+		2417A70509D84AC2B7809A00 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 84D89E48A82D4898B191DAA9 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */; };
+		27058E2D62494048B6B2B776 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXBuildFile; fileRef = B52F09700CD3436E9135E225 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNavMesh.cpp */; };
+		2B5E8C87817B4B418542773A /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 32E66AC2F40449B2B1924E6D /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */; };
+		35919988FC194BB5BC8CB8FE /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 90FA0BFA11924AF69F98F2B0 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */; };
+		41C1ACBF761C49F8B734D99C /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D36365CA9C3048D6A54AD295 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/CMakeLists.txt */; };
+		4255AF8B9F314793BE95A1F0 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 69E5093A239E4A359D4D201D /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */; };
+		4839890FAAFD486CA73D01E6 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXBuildFile; fileRef = 94B874F8E0784DB3A33CCDBD /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/unzip.cpp */; };
+		5884F2DF8FF64A96966A7C37 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = B9154C2DF8D44DE18C862E51 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */; };
+		5B6332D034794F0FB1DC5F2F /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXBuildFile; fileRef = 1696520D63C14078986F8DB4 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/ioapi_mem.cpp */; };
+		70C33141866845929604B96C /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = A30BC3EEA4234638ABAAEA4D /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */; };
+		72370BC5FF724DDFA71AAA1A /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXBuildFile; fileRef = 0879DCB8E8CC439596273D38 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/cdt.cc */; };
+		7D0892452DA64DD8BA43B916 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXBuildFile; fileRef = 901407193A044D14ADEC85EE /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */; };
+		8BF637C0D76542FEA48484A7 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXBuildFile; fileRef = 10634CC18F234DF89128EBBE /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxhash/xxhash.c */; };
+		903FF11A414E4E48B6FF31BD /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXBuildFile; fileRef = 8FE3C49D74AB41ABA6F1DDBE /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/sweep_context.cc */; };
+		9202811B8DED4EAE85856241 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXBuildFile; fileRef = 7F574A56FDDD4F0B82B0AACF /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourAlloc.cpp */; };
+		9234DE1A16BE4255887428BF /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/md5/md5.c */ = {isa = PBXBuildFile; fileRef = D41AE08AAB34451AA855E219 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/md5/md5.c */; };
+		95053F75DE1B46F3AC140082 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FA2626220C71491098347873 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/CMakeLists.txt */; };
+		98CA387E2D9D4B49B92D5D26 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXBuildFile; fileRef = 89B0FAADD5054597B12070AF /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/tinyxml2/tinyxml2.cpp */; };
+		9B1E9C2734644E13B982676B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXBuildFile; fileRef = C98C4A216AAB4D49BC109D86 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/advancing_front.cc */; };
+		9C638F4FB3F14BFA93CE6530 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXBuildFile; fileRef = 22BE3C04EF244651B6E3AF18 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */; };
+		9D9D356169FC400E9C841D39 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXBuildFile; fileRef = A03D59745BFC41199A866F72 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */; };
+		A74659C02C1944E3AB07DA22 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 542C236D366F479DAD448ACA /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/tinyxml2/CMakeLists.txt */; };
+		AE1DAAE96BDE4BB08DD9E508 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4B40F1C9C2AB40249D25924D /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/CMakeLists.txt */; };
+		AE4F274B2B39433FB198BAE1 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/CMakeFiles/external.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 0A254847CFAC44F4AADD61E9 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/CMakeFiles/external.dir/Info.plist */; };
+		B14CAE61DDA64E05BCD4D382 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 609CEF8772514A408568BAC5 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */; };
+		B1D5680404264518B1716238 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXBuildFile; fileRef = 80DEB79F8C0B4934A078D9B6 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */; };
+		B840E2E026C64D4286829FFF /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 5D17CD37C84F4DB2B59F41F7 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */; };
+		B8C30DE8476F42F788866F6A /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXBuildFile; fileRef = 74B6AE2DF2B6436C8EFA745B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxtea/xxtea.cpp */; };
+		BB8AA7F71DEA424A91B9ACC7 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXBuildFile; fileRef = 38EE51EBCC8E4BC3A17244CD /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */; };
+		BCC3E9A6497441C7A46D324B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXBuildFile; fileRef = FAB4FE70D055438F93FB4A37 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */; };
+		BFCFE897E5B24EFE8760FF81 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXBuildFile; fileRef = 7C07D97435ED44428AB1C53A /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNode.cpp */; };
+		C2DB823647644AD19155D392 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DDF0B452839545479EF8DA17 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/md5/CMakeLists.txt */; };
+		C540256A824B4990A72E0942 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXBuildFile; fileRef = 77B8A1105F6941019087979B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/sweep.cc */; };
+		CC73D866BDF84EF4908EF649 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 766C8D94F2594E888B7399B1 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxtea/CMakeLists.txt */; };
+		CFE39C7164C14C83BED3A768 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 420D5F01F203415CBC7D590E /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */; };
+		D22EA922A7F4412FA4E6CBC1 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXBuildFile; fileRef = 154A6C79DC83413AAF9174B3 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */; };
+		D57DA36303C64A5BA3AC1505 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXBuildFile; fileRef = 6AA6111FA4C044BAB0F0DC7F /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */; };
+		D9B54131777844A8B1B78FE9 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */ = {isa = PBXBuildFile; fileRef = 1224DB0E4A484CE0A31BA566 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */; };
+		DD14EF3311144FE1A01A85B9 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXBuildFile; fileRef = B3A68E09A5654058A1D59EF7 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */; };
+		E021C838A3A642038AD01E88 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXBuildFile; fileRef = C7030043BAA14146ABB87443 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/clipper/clipper.cpp */; };
+		E1CE036F38274169B39FD7B1 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXBuildFile; fileRef = CA15945FE07241C89A8314B4 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/ioapi.cpp */; };
+		EF2ADEF8A6D64367AA0EAE79 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXBuildFile; fileRef = 5A4321E680C243F686A1BCA1 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */; };
+		EFF012FCD3B3422097007E0F /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BA6FCE91314E46E89E1B3A0B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxhash/CMakeLists.txt */; };
+		F0BB1C5D6356494DA5940A96 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DEBE5E5D88434359A7C3EC2F /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/CMakeLists.txt */; };
+		F2AED72F160A46EABF2B86CF /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXBuildFile; fileRef = 25140AB4DEAF4D8E96A8AD2B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/ConvertUTF.c */; };
+		F32FF1E8A1324B5DB8ADB39B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXBuildFile; fileRef = 8AD3997A8B5C4B0FA28EDD79 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */; };
+		F6949DF17B7A4120B86CA8BA /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D3D8C2A99C534606A6F80F32 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/clipper/CMakeLists.txt */; };
+		F6D1B8FF424A461E8CD326F4 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXBuildFile; fileRef = A51E8CCFC0E5404AA48C75B9 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/common/shapes.cc */; };
+		F703339E9578467FAB2E914B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXBuildFile; fileRef = C78A8839F6E44430B8EE298A /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/fastlz/fastlz.c */; };
+		FA6933A0DDD449E8ABF4B348 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/empty.cpp */ = {isa = PBXBuildFile; fileRef = B84418980014469D9B512EED /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/empty.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2D1319AEB234471DB4833FFD /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		AC0029EC7E024A1293DF6646 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		B2D88E30A1C148F399D53A6A /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		EB4ECEC33B6141F78A4624BB /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		008EBB22336349CFB8F795EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97D0FE5469A64F3EAF59C66B;
+			remoteInfo = ext_edtaa3func;
+		};
+		0241475189714B6BA3664DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3DEDBC5496E464F9FDA036D;
+			remoteInfo = ZERO_CHECK;
+		};
+		115D4607A82844BE964183EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 995A2A54262F44F6BD3853B0;
+			remoteInfo = ext_clipper;
+		};
+		12B3B46079FC4E3BA15C91EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3DEDBC5496E464F9FDA036D;
+			remoteInfo = ZERO_CHECK;
+		};
+		1985AD9D42F5493A94C103F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411327BC42B945F29A6C9638;
+			remoteInfo = ext_poly2tri;
+		};
+		26F2B35777E646E68F08E438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411327BC42B945F29A6C9638;
+			remoteInfo = ext_poly2tri;
+		};
+		3880242BCC9D42A9A431D125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AF3A3E5EF33443EBC66E97C;
+			remoteInfo = ext_xxtea;
+		};
+		3D928116FF454BA4B5924B40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2361BF9A1FA947AF9BA99E75;
+			remoteInfo = ext_tinyxml2;
+		};
+		6E10D4F462A84B1DB04CCCA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97D0FE5469A64F3EAF59C66B;
+			remoteInfo = ext_edtaa3func;
+		};
+		79F37376467645B288FBA30F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AF3A3E5EF33443EBC66E97C;
+			remoteInfo = ext_xxtea;
+		};
+		894882F97FCE485D9D19EBE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C40F0FAA27794718897D1FB2;
+			remoteInfo = ext_unzip;
+		};
+		9059BBB799E14771AB29F2B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D03BC6D74F54D30B586FEE8;
+			remoteInfo = external;
+		};
+		949B30EF8EF9425790100414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2361BF9A1FA947AF9BA99E75;
+			remoteInfo = ext_tinyxml2;
+		};
+		9E6102ECFE444F5E913A3998 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E6FE8C11D2454EB66C4B92;
+			remoteInfo = ext_md5;
+		};
+		9EB26ABF1BC84FB685689CDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5AA17953C54181AF0025E6;
+			remoteInfo = ext_xxhash;
+		};
+		B78BF47EFA314CE0B65F78AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3AAC0E83C9B4E3FB13B596F;
+			remoteInfo = ext_recast;
+		};
+		C2FC1B0FD75F4D3C8BC96FED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5AA17953C54181AF0025E6;
+			remoteInfo = ext_xxhash;
+		};
+		C48C51E1F38340AD9BF42BE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 995A2A54262F44F6BD3853B0;
+			remoteInfo = ext_clipper;
+		};
+		EB3E2A5F467E48F58DBD62FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C40F0FAA27794718897D1FB2;
+			remoteInfo = ext_unzip;
+		};
+		EB6E41EBAAF847B68765C704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BDD49A217440B48DF944AD;
+			remoteInfo = ext_convertUTF;
+		};
+		EBA708EADD814915ADD79D2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3AAC0E83C9B4E3FB13B596F;
+			remoteInfo = ext_recast;
+		};
+		FB6BDBB199464F17B1FB7A88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E6FE8C11D2454EB66C4B92;
+			remoteInfo = ext_md5;
+		};
+		FEA48F1A9F4B4E35B151A234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60482AE84D774898B225B533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BDD49A217440B48DF944AD;
+			remoteInfo = ext_convertUTF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0879DCB8E8CC439596273D38 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/cdt.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = cdt.cc; path = poly2tri/sweep/cdt.cc; sourceTree = SOURCE_ROOT; };
+		0A254847CFAC44F4AADD61E9 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/CMakeFiles/external.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/CMakeFiles/external.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		10634CC18F234DF89128EBBE /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxhash/xxhash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xxhash.c; path = xxhash/xxhash.c; sourceTree = SOURCE_ROOT; };
+		1224DB0E4A484CE0A31BA566 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		154A6C79DC83413AAF9174B3 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCache.cpp; path = recast/DetourTileCache/DetourTileCache.cpp; sourceTree = SOURCE_ROOT; };
+		1696520D63C14078986F8DB4 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/ioapi_mem.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi_mem.cpp; path = unzip/ioapi_mem.cpp; sourceTree = SOURCE_ROOT; };
+		20B505CC824541C589EE8AAB /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = recast/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		22BE3C04EF244651B6E3AF18 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshBuilder.cpp; path = recast/Detour/DetourNavMeshBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		24A97638C2EF47CFA6EDE8A1 /* ext_recast */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_recast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		25140AB4DEAF4D8E96A8AD2B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/ConvertUTF.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ConvertUTF.c; path = ConvertUTF/ConvertUTF.c; sourceTree = SOURCE_ROOT; };
+		32E66AC2F40449B2B1924E6D /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		38EE51EBCC8E4BC3A17244CD /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourLocalBoundary.cpp; path = recast/DetourCrowd/DetourLocalBoundary.cpp; sourceTree = SOURCE_ROOT; };
+		420D5F01F203415CBC7D590E /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		4760373E81FB4D6D8A9D2375 /* ext_xxhash */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxhash.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B40F1C9C2AB40249D25924D /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = ConvertUTF/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4E308943505A4E8C867F2BDE /* ext_md5 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_md5.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		523B954F7363411E8DD820B4 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		542C236D366F479DAD448ACA /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/tinyxml2/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tinyxml2/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5A4321E680C243F686A1BCA1 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourProximityGrid.cpp; path = recast/DetourCrowd/DetourProximityGrid.cpp; sourceTree = SOURCE_ROOT; };
+		5D17CD37C84F4DB2B59F41F7 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		609CEF8772514A408568BAC5 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		69E5093A239E4A359D4D201D /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourDebugDraw.cpp; path = recast/DebugUtils/DetourDebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		6AA6111FA4C044BAB0F0DC7F /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConvertUTFWrapper.cpp; path = ConvertUTF/ConvertUTFWrapper.cpp; sourceTree = SOURCE_ROOT; };
+		6FEE18825FF8421EBD7EA0EB /* ext_tinyxml2 */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_tinyxml2.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B6AE2DF2B6436C8EFA745B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxtea/xxtea.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xxtea.cpp; path = xxtea/xxtea.cpp; sourceTree = SOURCE_ROOT; };
+		766C8D94F2594E888B7399B1 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxtea/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxtea/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		77B8A1105F6941019087979B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/sweep.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep.cc; path = poly2tri/sweep/sweep.cc; sourceTree = SOURCE_ROOT; };
+		7C07D97435ED44428AB1C53A /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNode.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNode.cpp; path = recast/Detour/DetourNode.cpp; sourceTree = SOURCE_ROOT; };
+		7F574A56FDDD4F0B82B0AACF /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourAlloc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourAlloc.cpp; path = recast/Detour/DetourAlloc.cpp; sourceTree = SOURCE_ROOT; };
+		802C1996DAA3455182E58489 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		80DEB79F8C0B4934A078D9B6 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathQueue.cpp; path = recast/DetourCrowd/DetourPathQueue.cpp; sourceTree = SOURCE_ROOT; };
+		84D89E48A82D4898B191DAA9 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		884A2B8C43DE43FE8B262955 /* ext_clipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_clipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		89B0FAADD5054597B12070AF /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/tinyxml2/tinyxml2.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tinyxml2.cpp; path = tinyxml2/tinyxml2.cpp; sourceTree = SOURCE_ROOT; };
+		8AD3997A8B5C4B0FA28EDD79 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DebugDraw.cpp; path = recast/DebugUtils/DebugDraw.cpp; sourceTree = SOURCE_ROOT; };
+		8B0A81B38571484D93F8D8A9 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		8B35CC75A05A40BAB17648E9 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/edtaa3func/edtaa3func.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = edtaa3func.cpp; path = edtaa3func/edtaa3func.cpp; sourceTree = SOURCE_ROOT; };
+		8FE3C49D74AB41ABA6F1DDBE /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/sweep_context.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sweep_context.cc; path = poly2tri/sweep/sweep_context.cc; sourceTree = SOURCE_ROOT; };
+		901407193A044D14ADEC85EE /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourPathCorridor.cpp; path = recast/DetourCrowd/DetourPathCorridor.cpp; sourceTree = SOURCE_ROOT; };
+		90FA0BFA11924AF69F98F2B0 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourTileCacheBuilder.cpp; path = recast/DetourTileCache/DetourTileCacheBuilder.cpp; sourceTree = SOURCE_ROOT; };
+		94B874F8E0784DB3A33CCDBD /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/unzip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = unzip.cpp; path = unzip/unzip.cpp; sourceTree = SOURCE_ROOT; };
+		9656098A0AD24A32806EA9FB /* ext_convertUTF */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_convertUTF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03D59745BFC41199A866F72 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMeshQuery.cpp; path = recast/Detour/DetourNavMeshQuery.cpp; sourceTree = SOURCE_ROOT; };
+		A30BC3EEA4234638ABAAEA4D /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		A51E8CCFC0E5404AA48C75B9 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/common/shapes.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = shapes.cc; path = poly2tri/common/shapes.cc; sourceTree = SOURCE_ROOT; };
+		AA9736A78E7444098A68C7FF /* ext_poly2tri */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_poly2tri.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A68E09A5654058A1D59EF7 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourObstacleAvoidance.cpp; path = recast/DetourCrowd/DetourObstacleAvoidance.cpp; sourceTree = SOURCE_ROOT; };
+		B52F09700CD3436E9135E225 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNavMesh.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourNavMesh.cpp; path = recast/Detour/DetourNavMesh.cpp; sourceTree = SOURCE_ROOT; };
+		B84418980014469D9B512EED /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/empty.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = empty.cpp; path = empty.cpp; sourceTree = SOURCE_ROOT; };
+		B9154C2DF8D44DE18C862E51 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; name = Info.plist; path = "../../ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+		BA6FCE91314E46E89E1B3A0B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxhash/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = xxhash/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C7030043BAA14146ABB87443 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/clipper/clipper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = clipper.cpp; path = clipper/clipper.cpp; sourceTree = SOURCE_ROOT; };
+		C78A8839F6E44430B8EE298A /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/fastlz/fastlz.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = fastlz.c; path = recast/fastlz/fastlz.c; sourceTree = SOURCE_ROOT; };
+		C98C4A216AAB4D49BC109D86 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/advancing_front.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = advancing_front.cc; path = poly2tri/sweep/advancing_front.cc; sourceTree = SOURCE_ROOT; };
+		CA15945FE07241C89A8314B4 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/ioapi.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ioapi.cpp; path = unzip/ioapi.cpp; sourceTree = SOURCE_ROOT; };
+		CC56B573EB4947E8B7EAB3B2 /* ext_unzip */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_unzip.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36365CA9C3048D6A54AD295 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = unzip/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D3D8C2A99C534606A6F80F32 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/clipper/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = clipper/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D41AE08AAB34451AA855E219 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/md5/md5.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = md5.c; path = md5/md5.c; sourceTree = SOURCE_ROOT; };
+		DDF0B452839545479EF8DA17 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/md5/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = md5/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DEBE5E5D88434359A7C3EC2F /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = poly2tri/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E19EF0BC79034B3E9FFB6949 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/edtaa3func/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = edtaa3func/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E6B9B4FDAE1A4FE48298CF36 /* external */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libexternal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7DE1D414E3E4466A9E5C572 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourCommon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCommon.cpp; path = recast/Detour/DetourCommon.cpp; sourceTree = SOURCE_ROOT; };
+		EDAE03D65E9A4AD59512AD68 /* ext_xxtea */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_xxtea.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53BF597A5AC4E61A99FE616 /* ext_edtaa3func */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libext_edtaa3func.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2626220C71491098347873 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FAB4FE70D055438F93FB4A37 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DetourCrowd.cpp; path = recast/DetourCrowd/DetourCrowd.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AC44C7068CF459C9E03AB6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C2D8B75AF44A48B42A6281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F4594C77EB149B7A71D7F0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBA22F11688445289798131 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A412210F7D824CD09AE52D31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B286EFE7AB75498E8FCCE900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB406215165F4D8EAD19D739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2B46C961154651A6EAB3D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E46BA0978E4A1EAEBEE45A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A692DC35244C1B9F6F7AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B7A0B7F8814437BB4FEFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025E3A56C5014EA5ADAEC829 /* ext_tinyxml2 */ = {
+			isa = PBXGroup;
+			children = (
+				30508DE881D64C5DA2DCAE4B /* Source Files */,
+				40EACAEA43234F2E910D6C27 /* Resources */,
+				542C236D366F479DAD448ACA /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/tinyxml2/CMakeLists.txt */,
+			);
+			name = ext_tinyxml2;
+			sourceTree = "<group>";
+		};
+		0DE18E2D65C44432B7117D6D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				25140AB4DEAF4D8E96A8AD2B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				6AA6111FA4C044BAB0F0DC7F /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		0DF4F9D5C0F14294A838CA44 /* ext_poly2tri */ = {
+			isa = PBXGroup;
+			children = (
+				52F8BFF15ABF46D2A7088D4A /* Source Files */,
+				C3CA2863A14B40F3BB9ED753 /* Resources */,
+				DEBE5E5D88434359A7C3EC2F /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/CMakeLists.txt */,
+			);
+			name = ext_poly2tri;
+			sourceTree = "<group>";
+		};
+		15A1B35DA5E04523B8D03901 = {
+			isa = PBXGroup;
+			children = (
+				A1077FCC0B2A42478FA246FC /* External */,
+				91C514A552AE455D9C51BE65 /* ALL_BUILD */,
+				B2CD0F1B073A410CAA38A90B /* Products */,
+				5C69FA6454164443A56B56F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1AF839A0EDC34C68AEF80221 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				74B6AE2DF2B6436C8EFA745B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1CF2902F363F47E593E44948 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				38831A84D1A847E4B01DD38A /* Source Files */,
+				2B7F54F156044A97BFE80892 /* Resources */,
+				FA2626220C71491098347873 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/CMakeLists.txt */,
+			);
+			name = external;
+			sourceTree = "<group>";
+		};
+		1E5F9375563D4F7BB8A414F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B0A81B38571484D93F8D8A9 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2B396553E72D43F6B3B5732B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B35CC75A05A40BAB17648E9 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		2B7F54F156044A97BFE80892 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A254847CFAC44F4AADD61E9 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/CMakeFiles/external.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		30508DE881D64C5DA2DCAE4B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				89B0FAADD5054597B12070AF /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		38831A84D1A847E4B01DD38A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B84418980014469D9B512EED /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/empty.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		40EACAEA43234F2E910D6C27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				523B954F7363411E8DD820B4 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		40F93031B7294ADAA4DA46FA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D41AE08AAB34451AA855E219 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/md5/md5.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		448E659CD01848F192AA64D4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A30BC3EEA4234638ABAAEA4D /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/unzip/CMakeFiles/ext_unzip.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		52F8BFF15ABF46D2A7088D4A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A51E8CCFC0E5404AA48C75B9 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/common/shapes.cc */,
+				C98C4A216AAB4D49BC109D86 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				0879DCB8E8CC439596273D38 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				77B8A1105F6941019087979B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				8FE3C49D74AB41ABA6F1DDBE /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		555B6452BA864945974D56A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				609CEF8772514A408568BAC5 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/recast/CMakeFiles/ext_recast.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5A1243761A0C448AB3C9002D /* ext_xxtea */ = {
+			isa = PBXGroup;
+			children = (
+				1AF839A0EDC34C68AEF80221 /* Source Files */,
+				E183A80296AC4071A76492C6 /* Resources */,
+				766C8D94F2594E888B7399B1 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxtea/CMakeLists.txt */,
+			);
+			name = ext_xxtea;
+			sourceTree = "<group>";
+		};
+		5C69FA6454164443A56B56F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66D6CED323B944AC9659AA92 /* ext_recast */ = {
+			isa = PBXGroup;
+			children = (
+				BB0649D6DAD5499DA78DAC30 /* Source Files */,
+				555B6452BA864945974D56A8 /* Resources */,
+				20B505CC824541C589EE8AAB /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/CMakeLists.txt */,
+			);
+			name = ext_recast;
+			sourceTree = "<group>";
+		};
+		6901AB67D3EB49F4929616FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32E66AC2F40449B2B1924E6D /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/clipper/CMakeFiles/ext_clipper.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6E6EA92BC8234349AA05E2A3 /* ext_clipper */ = {
+			isa = PBXGroup;
+			children = (
+				FD03C52E1A8D4DB48B39B884 /* Source Files */,
+				6901AB67D3EB49F4929616FB /* Resources */,
+				D3D8C2A99C534606A6F80F32 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/clipper/CMakeLists.txt */,
+			);
+			name = ext_clipper;
+			sourceTree = "<group>";
+		};
+		7A780FF54F1B4E28B1B89525 /* ext_convertUTF */ = {
+			isa = PBXGroup;
+			children = (
+				0DE18E2D65C44432B7117D6D /* Source Files */,
+				1E5F9375563D4F7BB8A414F1 /* Resources */,
+				4B40F1C9C2AB40249D25924D /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/CMakeLists.txt */,
+			);
+			name = ext_convertUTF;
+			sourceTree = "<group>";
+		};
+		90C7E3087C9F471BAA77DD62 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9154C2DF8D44DE18C862E51 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		91C514A552AE455D9C51BE65 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DF2D1A5FE9AD46209527E4E6 /* CMake Rules */,
+				802C1996DAA3455182E58489 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A1077FCC0B2A42478FA246FC /* External */ = {
+			isa = PBXGroup;
+			children = (
+				1CF2902F363F47E593E44948 /* external */,
+				66D6CED323B944AC9659AA92 /* ext_recast */,
+				025E3A56C5014EA5ADAEC829 /* ext_tinyxml2 */,
+				B8D2D47D2D0D45FD8F7635BE /* ext_xxhash */,
+				5A1243761A0C448AB3C9002D /* ext_xxtea */,
+				6E6EA92BC8234349AA05E2A3 /* ext_clipper */,
+				CA4E2F1E504A4E589BF6A8D5 /* ext_edtaa3func */,
+				7A780FF54F1B4E28B1B89525 /* ext_convertUTF */,
+				0DF4F9D5C0F14294A838CA44 /* ext_poly2tri */,
+				B5348D443BA44E93BE60E8AF /* ext_md5 */,
+				F480AFF5DC314BE994AA6655 /* ext_unzip */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		ACBF6FB4C6E24EEBA21BA176 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D17CD37C84F4DB2B59F41F7 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/xxhash/CMakeFiles/ext_xxhash.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B0A1852F7B0B40379E07DCA9 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				10634CC18F234DF89128EBBE /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxhash/xxhash.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B2CD0F1B073A410CAA38A90B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				884A2B8C43DE43FE8B262955 /* ext_clipper */,
+				9656098A0AD24A32806EA9FB /* ext_convertUTF */,
+				F53BF597A5AC4E61A99FE616 /* ext_edtaa3func */,
+				4E308943505A4E8C867F2BDE /* ext_md5 */,
+				AA9736A78E7444098A68C7FF /* ext_poly2tri */,
+				24A97638C2EF47CFA6EDE8A1 /* ext_recast */,
+				6FEE18825FF8421EBD7EA0EB /* ext_tinyxml2 */,
+				CC56B573EB4947E8B7EAB3B2 /* ext_unzip */,
+				4760373E81FB4D6D8A9D2375 /* ext_xxhash */,
+				EDAE03D65E9A4AD59512AD68 /* ext_xxtea */,
+				E6B9B4FDAE1A4FE48298CF36 /* external */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5348D443BA44E93BE60E8AF /* ext_md5 */ = {
+			isa = PBXGroup;
+			children = (
+				40F93031B7294ADAA4DA46FA /* Source Files */,
+				D81FCE2AA3164AD68218BE71 /* Resources */,
+				DDF0B452839545479EF8DA17 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/md5/CMakeLists.txt */,
+			);
+			name = ext_md5;
+			sourceTree = "<group>";
+		};
+		B8D2D47D2D0D45FD8F7635BE /* ext_xxhash */ = {
+			isa = PBXGroup;
+			children = (
+				B0A1852F7B0B40379E07DCA9 /* Source Files */,
+				ACBF6FB4C6E24EEBA21BA176 /* Resources */,
+				BA6FCE91314E46E89E1B3A0B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxhash/CMakeLists.txt */,
+			);
+			name = ext_xxhash;
+			sourceTree = "<group>";
+		};
+		BB0649D6DAD5499DA78DAC30 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AD3997A8B5C4B0FA28EDD79 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				69E5093A239E4A359D4D201D /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				7F574A56FDDD4F0B82B0AACF /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				E7DE1D414E3E4466A9E5C572 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				B52F09700CD3436E9135E225 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				22BE3C04EF244651B6E3AF18 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				A03D59745BFC41199A866F72 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				7C07D97435ED44428AB1C53A /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				FAB4FE70D055438F93FB4A37 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				38EE51EBCC8E4BC3A17244CD /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				B3A68E09A5654058A1D59EF7 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				901407193A044D14ADEC85EE /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				80DEB79F8C0B4934A078D9B6 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				5A4321E680C243F686A1BCA1 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				154A6C79DC83413AAF9174B3 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				90FA0BFA11924AF69F98F2B0 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				C78A8839F6E44430B8EE298A /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C3CA2863A14B40F3BB9ED753 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84D89E48A82D4898B191DAA9 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CA4E2F1E504A4E589BF6A8D5 /* ext_edtaa3func */ = {
+			isa = PBXGroup;
+			children = (
+				2B396553E72D43F6B3B5732B /* Source Files */,
+				90C7E3087C9F471BAA77DD62 /* Resources */,
+				E19EF0BC79034B3E9FFB6949 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/edtaa3func/CMakeLists.txt */,
+			);
+			name = ext_edtaa3func;
+			sourceTree = "<group>";
+		};
+		D81FCE2AA3164AD68218BE71 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				420D5F01F203415CBC7D590E /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/md5/CMakeFiles/ext_md5.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DF2D1A5FE9AD46209527E4E6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E183A80296AC4071A76492C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1224DB0E4A484CE0A31BA566 /* /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/xxtea/CMakeFiles/ext_xxtea.dir/Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EB6E6ECDA13041A38C8C530D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA15945FE07241C89A8314B4 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/ioapi.cpp */,
+				1696520D63C14078986F8DB4 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/ioapi_mem.cpp */,
+				94B874F8E0784DB3A33CCDBD /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/unzip.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F480AFF5DC314BE994AA6655 /* ext_unzip */ = {
+			isa = PBXGroup;
+			children = (
+				EB6E6ECDA13041A38C8C530D /* Source Files */,
+				448E659CD01848F192AA64D4 /* Resources */,
+				D36365CA9C3048D6A54AD295 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/CMakeLists.txt */,
+			);
+			name = ext_unzip;
+			sourceTree = "<group>";
+		};
+		FD03C52E1A8D4DB48B39B884 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7030043BAA14146ABB87443 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/clipper/clipper.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E6FE8C11D2454EB66C4B92 /* ext_md5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13EDC5E47B72496D86B9697D /* Build configuration list for PBXNativeTarget "ext_md5" */;
+			buildPhases = (
+				CD688A2489A44E3BBFBAB701 /* Sources */,
+				32C2D8B75AF44A48B42A6281 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_md5;
+			productName = ext_md5;
+			productReference = 4E308943505A4E8C867F2BDE /* ext_md5 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1D03BC6D74F54D30B586FEE8 /* external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CDA4B4BCB7D4BC081CF157E /* Build configuration list for PBXNativeTarget "external" */;
+			buildPhases = (
+				81F398637C6D4A0E86215288 /* Sources */,
+				1AC44C7068CF459C9E03AB6A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				392CD106C7854568BAB504E3 /* PBXTargetDependency */,
+				B520518EFB0F430FA91705D8 /* PBXTargetDependency */,
+				E4A76E75488B40159C07FD59 /* PBXTargetDependency */,
+				D9FE1A68D298495E8EE01756 /* PBXTargetDependency */,
+				40C555BCD58045B0B42D1C66 /* PBXTargetDependency */,
+				D28E2BD6D6084904A1D794B4 /* PBXTargetDependency */,
+				25E8BD1D1A6A421C967684C2 /* PBXTargetDependency */,
+				7916F763823645C594CE7CBC /* PBXTargetDependency */,
+				91752AE63749424DA0AA68F8 /* PBXTargetDependency */,
+				BCC680F4A170442C86A13DD6 /* PBXTargetDependency */,
+				5FC3E2A299E94EC4B0412C7B /* PBXTargetDependency */,
+			);
+			name = external;
+			productName = external;
+			productReference = E6B9B4FDAE1A4FE48298CF36 /* external */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2361BF9A1FA947AF9BA99E75 /* ext_tinyxml2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1999E42F9D40C3B05C42E5 /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */;
+			buildPhases = (
+				70ED413914BB4F498A689007 /* Sources */,
+				8DBA22F11688445289798131 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_tinyxml2;
+			productName = ext_tinyxml2;
+			productReference = 6FEE18825FF8421EBD7EA0EB /* ext_tinyxml2 */;
+			productType = "com.apple.product-type.library.static";
+		};
+		40BDD49A217440B48DF944AD /* ext_convertUTF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89A241E45794F288824315B /* Build configuration list for PBXNativeTarget "ext_convertUTF" */;
+			buildPhases = (
+				21D37F3E0A114D6FBFBF308A /* Sources */,
+				E4B7A0B7F8814437BB4FEFB8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_convertUTF;
+			productName = ext_convertUTF;
+			productReference = 9656098A0AD24A32806EA9FB /* ext_convertUTF */;
+			productType = "com.apple.product-type.library.static";
+		};
+		411327BC42B945F29A6C9638 /* ext_poly2tri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07013DC947D8463385C24CB5 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */;
+			buildPhases = (
+				A416CD08DCC1477D938820E6 /* Sources */,
+				D0E46BA0978E4A1EAEBEE45A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_poly2tri;
+			productName = ext_poly2tri;
+			productReference = AA9736A78E7444098A68C7FF /* ext_poly2tri */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5AF3A3E5EF33443EBC66E97C /* ext_xxtea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54CA14626934D87BD95C7F7 /* Build configuration list for PBXNativeTarget "ext_xxtea" */;
+			buildPhases = (
+				E5D1B1677BFC414BBD37AF9B /* Sources */,
+				B286EFE7AB75498E8FCCE900 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxtea;
+			productName = ext_xxtea;
+			productReference = EDAE03D65E9A4AD59512AD68 /* ext_xxtea */;
+			productType = "com.apple.product-type.library.static";
+		};
+		97D0FE5469A64F3EAF59C66B /* ext_edtaa3func */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54B75EDA5A74177BC25A526 /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */;
+			buildPhases = (
+				B37054043E1B488CA77831C0 /* Sources */,
+				CD2B46C961154651A6EAB3D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_edtaa3func;
+			productName = ext_edtaa3func;
+			productReference = F53BF597A5AC4E61A99FE616 /* ext_edtaa3func */;
+			productType = "com.apple.product-type.library.static";
+		};
+		995A2A54262F44F6BD3853B0 /* ext_clipper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DEAD1F623BA402485580CDA /* Build configuration list for PBXNativeTarget "ext_clipper" */;
+			buildPhases = (
+				530747E69774473EBE4379F2 /* Sources */,
+				D6A692DC35244C1B9F6F7AEB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_clipper;
+			productName = ext_clipper;
+			productReference = 884A2B8C43DE43FE8B262955 /* ext_clipper */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BD5AA17953C54181AF0025E6 /* ext_xxhash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC8BD17F53AF49B28A25256E /* Build configuration list for PBXNativeTarget "ext_xxhash" */;
+			buildPhases = (
+				546EB03A380044C495D0F377 /* Sources */,
+				A412210F7D824CD09AE52D31 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_xxhash;
+			productName = ext_xxhash;
+			productReference = 4760373E81FB4D6D8A9D2375 /* ext_xxhash */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C3AAC0E83C9B4E3FB13B596F /* ext_recast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BACF17A210F34823806DAEB6 /* Build configuration list for PBXNativeTarget "ext_recast" */;
+			buildPhases = (
+				5FC72A911A4543C5972877E4 /* Sources */,
+				CB406215165F4D8EAD19D739 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_recast;
+			productName = ext_recast;
+			productReference = 24A97638C2EF47CFA6EDE8A1 /* ext_recast */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C40F0FAA27794718897D1FB2 /* ext_unzip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D892F4BF397D4C7B836859D6 /* Build configuration list for PBXNativeTarget "ext_unzip" */;
+			buildPhases = (
+				880DB70A603D439DBBC48D15 /* Sources */,
+				5F4594C77EB149B7A71D7F0F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ext_unzip;
+			productName = ext_unzip;
+			productReference = CC56B573EB4947E8B7EAB3B2 /* ext_unzip */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60482AE84D774898B225B533 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = E55D87181F7D4E8EBE624A2E /* Build configuration list for PBXProject "external" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				2D1319AEB234471DB4833FFD /* Debug */,
+				B2D88E30A1C148F399D53A6A /* Release */,
+				EB4ECEC33B6141F78A4624BB /* MinSizeRel */,
+				AC0029EC7E024A1293DF6646 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 15A1B35DA5E04523B8D03901;
+			projectDirPath = ../../../cocos2d/external;
+			projectRoot = "";
+			targets = (
+				B6C4018FC5844557AAC76A2B /* ALL_BUILD */,
+				B3DEDBC5496E464F9FDA036D /* ZERO_CHECK */,
+				995A2A54262F44F6BD3853B0 /* ext_clipper */,
+				40BDD49A217440B48DF944AD /* ext_convertUTF */,
+				97D0FE5469A64F3EAF59C66B /* ext_edtaa3func */,
+				18E6FE8C11D2454EB66C4B92 /* ext_md5 */,
+				411327BC42B945F29A6C9638 /* ext_poly2tri */,
+				C3AAC0E83C9B4E3FB13B596F /* ext_recast */,
+				2361BF9A1FA947AF9BA99E75 /* ext_tinyxml2 */,
+				C40F0FAA27794718897D1FB2 /* ext_unzip */,
+				BD5AA17953C54181AF0025E6 /* ext_xxhash */,
+				5AF3A3E5EF33443EBC66E97C /* ext_xxtea */,
+				1D03BC6D74F54D30B586FEE8 /* external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17A0F3E2001BDC50225EA799 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external
+  make -f /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external
+  make -f /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external
+  make -f /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external
+  make -f /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3C311E80FBF10A15D8903A39 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21D37F3E0A114D6FBFBF308A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AED72F160A46EABF2B86CF /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/ConvertUTF.c */,
+				D57DA36303C64A5BA3AC1505 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/ConvertUTFWrapper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		530747E69774473EBE4379F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E021C838A3A642038AD01E88 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/clipper/clipper.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546EB03A380044C495D0F377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF637C0D76542FEA48484A7 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxhash/xxhash.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FC72A911A4543C5972877E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32FF1E8A1324B5DB8ADB39B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DebugUtils/DebugDraw.cpp */,
+				4255AF8B9F314793BE95A1F0 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DebugUtils/DetourDebugDraw.cpp */,
+				9202811B8DED4EAE85856241 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourAlloc.cpp */,
+				16ACB540B33E47D69C3042E6 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourCommon.cpp */,
+				27058E2D62494048B6B2B776 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNavMesh.cpp */,
+				9C638F4FB3F14BFA93CE6530 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNavMeshBuilder.cpp */,
+				9D9D356169FC400E9C841D39 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNavMeshQuery.cpp */,
+				BFCFE897E5B24EFE8760FF81 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/Detour/DetourNode.cpp */,
+				BCC3E9A6497441C7A46D324B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourCrowd.cpp */,
+				BB8AA7F71DEA424A91B9ACC7 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourLocalBoundary.cpp */,
+				DD14EF3311144FE1A01A85B9 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourObstacleAvoidance.cpp */,
+				7D0892452DA64DD8BA43B916 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourPathCorridor.cpp */,
+				B1D5680404264518B1716238 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourPathQueue.cpp */,
+				EF2ADEF8A6D64367AA0EAE79 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourCrowd/DetourProximityGrid.cpp */,
+				D22EA922A7F4412FA4E6CBC1 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourTileCache/DetourTileCache.cpp */,
+				35919988FC194BB5BC8CB8FE /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/DetourTileCache/DetourTileCacheBuilder.cpp */,
+				F703339E9578467FAB2E914B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/fastlz/fastlz.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ED413914BB4F498A689007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CA387E2D9D4B49B92D5D26 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/tinyxml2/tinyxml2.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F398637C6D4A0E86215288 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6933A0DDD449E8ABF4B348 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/empty.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880DB70A603D439DBBC48D15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CE036F38274169B39FD7B1 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/ioapi.cpp */,
+				5B6332D034794F0FB1DC5F2F /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/ioapi_mem.cpp */,
+				4839890FAAFD486CA73D01E6 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/unzip.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A416CD08DCC1477D938820E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D1B8FF424A461E8CD326F4 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/common/shapes.cc */,
+				9B1E9C2734644E13B982676B /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/advancing_front.cc */,
+				72370BC5FF724DDFA71AAA1A /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/cdt.cc */,
+				C540256A824B4990A72E0942 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/sweep.cc */,
+				903FF11A414E4E48B6FF31BD /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/sweep/sweep_context.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37054043E1B488CA77831C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1099FCF48740423394F98C95 /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/edtaa3func/edtaa3func.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD688A2489A44E3BBFBAB701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9234DE1A16BE4255887428BF /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/md5/md5.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5D1B1677BFC414BBD37AF9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C30DE8476F42F788866F6A /* /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxtea/xxtea.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E87385AE18948E4A8DE3309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D03BC6D74F54D30B586FEE8 /* external */;
+			targetProxy = 9059BBB799E14771AB29F2B7 /* PBXContainerItemProxy */;
+		};
+		0F6C66ABD53C40218A74DF2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97D0FE5469A64F3EAF59C66B /* ext_edtaa3func */;
+			targetProxy = 6E10D4F462A84B1DB04CCCA0 /* PBXContainerItemProxy */;
+		};
+		15A0F0B3388B4BE49BEC69DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BDD49A217440B48DF944AD /* ext_convertUTF */;
+			targetProxy = FEA48F1A9F4B4E35B151A234 /* PBXContainerItemProxy */;
+		};
+		25E8BD1D1A6A421C967684C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BDD49A217440B48DF944AD /* ext_convertUTF */;
+			targetProxy = EB6E41EBAAF847B68765C704 /* PBXContainerItemProxy */;
+		};
+		392CD106C7854568BAB504E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3AAC0E83C9B4E3FB13B596F /* ext_recast */;
+			targetProxy = B78BF47EFA314CE0B65F78AE /* PBXContainerItemProxy */;
+		};
+		40C555BCD58045B0B42D1C66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 995A2A54262F44F6BD3853B0 /* ext_clipper */;
+			targetProxy = 115D4607A82844BE964183EF /* PBXContainerItemProxy */;
+		};
+		5FC3E2A299E94EC4B0412C7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3DEDBC5496E464F9FDA036D /* ZERO_CHECK */;
+			targetProxy = 0241475189714B6BA3664DC1 /* PBXContainerItemProxy */;
+		};
+		6129FE453F0844E9B2006316 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E6FE8C11D2454EB66C4B92 /* ext_md5 */;
+			targetProxy = FB6BDBB199464F17B1FB7A88 /* PBXContainerItemProxy */;
+		};
+		7916F763823645C594CE7CBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 411327BC42B945F29A6C9638 /* ext_poly2tri */;
+			targetProxy = 26F2B35777E646E68F08E438 /* PBXContainerItemProxy */;
+		};
+		8ED855F1C0404A28B5DEC593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C40F0FAA27794718897D1FB2 /* ext_unzip */;
+			targetProxy = 894882F97FCE485D9D19EBE5 /* PBXContainerItemProxy */;
+		};
+		90A99BE3BF244E519C364EB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 995A2A54262F44F6BD3853B0 /* ext_clipper */;
+			targetProxy = C48C51E1F38340AD9BF42BE6 /* PBXContainerItemProxy */;
+		};
+		91752AE63749424DA0AA68F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E6FE8C11D2454EB66C4B92 /* ext_md5 */;
+			targetProxy = 9E6102ECFE444F5E913A3998 /* PBXContainerItemProxy */;
+		};
+		B29E0B631E9F4E749CAB75F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3DEDBC5496E464F9FDA036D /* ZERO_CHECK */;
+			targetProxy = 12B3B46079FC4E3BA15C91EB /* PBXContainerItemProxy */;
+		};
+		B520518EFB0F430FA91705D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2361BF9A1FA947AF9BA99E75 /* ext_tinyxml2 */;
+			targetProxy = 949B30EF8EF9425790100414 /* PBXContainerItemProxy */;
+		};
+		BCC680F4A170442C86A13DD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C40F0FAA27794718897D1FB2 /* ext_unzip */;
+			targetProxy = EB3E2A5F467E48F58DBD62FF /* PBXContainerItemProxy */;
+		};
+		BEE456391FBB49299E3E6422 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5AA17953C54181AF0025E6 /* ext_xxhash */;
+			targetProxy = 9EB26ABF1BC84FB685689CDF /* PBXContainerItemProxy */;
+		};
+		CB23A0EC962B4F4691CBE41F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3AAC0E83C9B4E3FB13B596F /* ext_recast */;
+			targetProxy = EBA708EADD814915ADD79D2F /* PBXContainerItemProxy */;
+		};
+		CB4247163E534F97B32C7D15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AF3A3E5EF33443EBC66E97C /* ext_xxtea */;
+			targetProxy = 3880242BCC9D42A9A431D125 /* PBXContainerItemProxy */;
+		};
+		D28E2BD6D6084904A1D794B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97D0FE5469A64F3EAF59C66B /* ext_edtaa3func */;
+			targetProxy = 008EBB22336349CFB8F795EE /* PBXContainerItemProxy */;
+		};
+		D9FE1A68D298495E8EE01756 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AF3A3E5EF33443EBC66E97C /* ext_xxtea */;
+			targetProxy = 79F37376467645B288FBA30F /* PBXContainerItemProxy */;
+		};
+		E377B8CF2C2648E789AC4245 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2361BF9A1FA947AF9BA99E75 /* ext_tinyxml2 */;
+			targetProxy = 3D928116FF454BA4B5924B40 /* PBXContainerItemProxy */;
+		};
+		E4A76E75488B40159C07FD59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5AA17953C54181AF0025E6 /* ext_xxhash */;
+			targetProxy = C2FC1B0FD75F4D3C8BC96FED /* PBXContainerItemProxy */;
+		};
+		F4E1D6D743CF4F3F83000D8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 411327BC42B945F29A6C9638 /* ext_poly2tri */;
+			targetProxy = 1985AD9D42F5493A94C103F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08DDFEFC758D4FC0B63A5C73 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0DC4E169732C4386BC44543A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		10FEA61BF22E43C2A7EBA210 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1D07D5F2AF8B4BCFADB3097F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1FBBF730F6064AC1B3D4BB28 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		22BE8AE66AB745159C1C0FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		30802D1A2352445B80501D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		335AA75B447B4028B89A13AE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		34268CE603DF486FAE75BCDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		37418E6234A04F349FD81D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3B7DA23884ED447395C3C932 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		3D1BE56CC5F94B6AB32DC252 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/..,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/tinyxml2/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxhash/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxtea/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/clipper/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/edtaa3func/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/..,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/md5/..,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/Box2D/include,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/chipmunk/include,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/freetype2/include/ios/freetype2,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/bullet/include,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/bullet/include/bullet,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/jpeg/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/openssl/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/uv/include,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/webp/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/websockets/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/curl/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/png/include/ios,"/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		46F0E91B566747729F99C197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4B2066711EFA4910B285C53F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/build";
+			};
+			name = MinSizeRel;
+		};
+		4BC8AABB834E4BC4BC4AFBD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4FE04234A3D748E4BADEE9E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		4FF8F5371BF143EFB1C291E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/build";
+			};
+			name = Release;
+		};
+		671C090920B04572A3B88CE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		72F2D7AC95C84E28A45C18E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		793992F94E3646FDB7E4A4EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		79727439D47547378B1B3258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/..,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/tinyxml2/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxhash/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxtea/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/clipper/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/edtaa3func/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/..,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/md5/..,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/Box2D/include,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/chipmunk/include,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/freetype2/include/ios/freetype2,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/bullet/include,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/bullet/include/bullet,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/jpeg/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/openssl/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/uv/include,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/webp/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/websockets/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/curl/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/png/include/ios,"/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7EAB116B24394117B27BC0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7EC1E9E6030E4B42B7E60D8E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		896BF6B9F61C4490A443D4EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8CD6FFCF902B4F5A9C4CC182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8EA1685E20214358B262F6A2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		900B00DD674E48718C5E7EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		90276B2829804594A1F5FEC4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxtea/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxtea;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/xxtea";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		92B3B29AB00D430FA65AA8BC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		954EE65B391B4EF4A6D55D9F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A8481D779352482CBA09897A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B9AF26FFBF28439B943A67B0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BD6CE5B6E431408B92B543DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BE35FE870DF04EAB8D61B504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C15DADF2DA014611A6A67A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C3270B60D41A4424A6627A75 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C58B455D67D944289AC2EE3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/edtaa3func/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_edtaa3func;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/edtaa3func";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C797ACFA650B451481F9C010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("   '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C872FBFFF1E44570912968BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_convertUTF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/ConvertUTF";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C90DE1A56D2A48FE8D0EC36A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CCA61E43561442DBB822C86A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxhash/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CD385DDFB4CE44739E33226D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D1A0A3D02F5943D08845DC67 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/build";
+			};
+			name = RelWithDebInfo;
+		};
+		D36EC7B55F2F4485A8E11A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D4487ACFAA6349E489378755 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DB0C3FE44A51495592027A06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DCAC7B7B81B548D1869462ED /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/..,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/tinyxml2/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxhash/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxtea/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/clipper/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/edtaa3func/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/..,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/md5/..,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/Box2D/include,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/chipmunk/include,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/freetype2/include/ios/freetype2,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/bullet/include,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/bullet/include/bullet,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/jpeg/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/openssl/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/uv/include,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/webp/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/websockets/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/curl/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/png/include/ios,"/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DD154562A5E74C9FBEB8C8BC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/md5/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("       -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_md5;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/md5";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E0BFF3BD23B74230AC185906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/tinyxml2/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_tinyxml2;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/tinyxml2";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E1FCC942328F4871A43DFE6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Release";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = ("    -DNDEBUG '-std=gnu99' ","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_recast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/recast";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E245202C6E714BB78CDFB2FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/Debug";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",LWS_WITH_LIBUV,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/recast/..,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/tinyxml2/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxhash/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/xxtea/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/clipper/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/edtaa3func/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/ConvertUTF/.,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/..,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/md5/..,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = external;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/Box2D/include,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/chipmunk/include,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/freetype2/include/ios/freetype2,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/bullet/include,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/bullet/include/bullet,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/jpeg/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/openssl/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/uv/include,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/webp/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/websockets/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/curl/include/ios,/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/png/include/ios,"/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/glsl-optimizer/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E24E19AA60D7405BB956ACDB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/unzip/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_unzip;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/unzip";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E3F779448853438D86B1A981 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/MinSizeRel";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/poly2tri/..,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_poly2tri;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/poly2tri";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E550118247FD407E8647CDC9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EAC0A71579E74668975C921B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphonesimulator;
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/build";
+			};
+			name = Debug;
+		};
+		FF0EDB024750448DA8004839 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/lib/RelWithDebInfo";
+				ENABLE_BITCODE = NO;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/external/clipper/.,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=c++11' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ext_clipper;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/cpinan/Documents/PROJECTS/TurboRace/ios-build/engine/external/clipper";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07013DC947D8463385C24CB5 /* Build configuration list for PBXNativeTarget "ext_poly2tri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900B00DD674E48718C5E7EB9 /* Debug */,
+				30802D1A2352445B80501D85 /* Release */,
+				E3F779448853438D86B1A981 /* MinSizeRel */,
+				1FBBF730F6064AC1B3D4BB28 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		13EDC5E47B72496D86B9697D /* Build configuration list for PBXNativeTarget "ext_md5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6CE5B6E431408B92B543DB /* Debug */,
+				D36EC7B55F2F4485A8E11A57 /* Release */,
+				C3270B60D41A4424A6627A75 /* MinSizeRel */,
+				DD154562A5E74C9FBEB8C8BC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		429BBC6B1F41465FAAFAC079 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37418E6234A04F349FD81D81 /* Debug */,
+				72F2D7AC95C84E28A45C18E6 /* Release */,
+				7EC1E9E6030E4B42B7E60D8E /* MinSizeRel */,
+				335AA75B447B4028B89A13AE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4DF169CBDCE34E8298FABFE9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				793992F94E3646FDB7E4A4EB /* Debug */,
+				22BE8AE66AB745159C1C0FAB /* Release */,
+				954EE65B391B4EF4A6D55D9F /* MinSizeRel */,
+				E550118247FD407E8647CDC9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6DEAD1F623BA402485580CDA /* Build configuration list for PBXNativeTarget "ext_clipper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				671C090920B04572A3B88CE5 /* Debug */,
+				7EAB116B24394117B27BC0CF /* Release */,
+				CD385DDFB4CE44739E33226D /* MinSizeRel */,
+				FF0EDB024750448DA8004839 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8CDA4B4BCB7D4BC081CF157E /* Build configuration list for PBXNativeTarget "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E245202C6E714BB78CDFB2FB /* Debug */,
+				79727439D47547378B1B3258 /* Release */,
+				DCAC7B7B81B548D1869462ED /* MinSizeRel */,
+				3D1BE56CC5F94B6AB32DC252 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A54CA14626934D87BD95C7F7 /* Build configuration list for PBXNativeTarget "ext_xxtea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE04234A3D748E4BADEE9E5 /* Debug */,
+				8CD6FFCF902B4F5A9C4CC182 /* Release */,
+				10FEA61BF22E43C2A7EBA210 /* MinSizeRel */,
+				90276B2829804594A1F5FEC4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BACF17A210F34823806DAEB6 /* Build configuration list for PBXNativeTarget "ext_recast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C797ACFA650B451481F9C010 /* Debug */,
+				E1FCC942328F4871A43DFE6A /* Release */,
+				1D07D5F2AF8B4BCFADB3097F /* MinSizeRel */,
+				D4487ACFAA6349E489378755 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BE1999E42F9D40C3B05C42E5 /* Build configuration list for PBXNativeTarget "ext_tinyxml2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0BFF3BD23B74230AC185906 /* Debug */,
+				896BF6B9F61C4490A443D4EE /* Release */,
+				3B7DA23884ED447395C3C932 /* MinSizeRel */,
+				B9AF26FFBF28439B943A67B0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C54B75EDA5A74177BC25A526 /* Build configuration list for PBXNativeTarget "ext_edtaa3func" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58B455D67D944289AC2EE3D /* Debug */,
+				4BC8AABB834E4BC4BC4AFBD1 /* Release */,
+				8EA1685E20214358B262F6A2 /* MinSizeRel */,
+				A8481D779352482CBA09897A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CC8BD17F53AF49B28A25256E /* Build configuration list for PBXNativeTarget "ext_xxhash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C15DADF2DA014611A6A67A62 /* Debug */,
+				34268CE603DF486FAE75BCDB /* Release */,
+				92B3B29AB00D430FA65AA8BC /* MinSizeRel */,
+				CCA61E43561442DBB822C86A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D892F4BF397D4C7B836859D6 /* Build configuration list for PBXNativeTarget "ext_unzip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB0C3FE44A51495592027A06 /* Debug */,
+				46F0E91B566747729F99C197 /* Release */,
+				C90DE1A56D2A48FE8D0EC36A /* MinSizeRel */,
+				E24E19AA60D7405BB956ACDB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E55D87181F7D4E8EBE624A2E /* Build configuration list for PBXProject "external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC0A71579E74668975C921B /* Debug */,
+				4FF8F5371BF143EFB1C291E2 /* Release */,
+				4B2066711EFA4910B285C53F /* MinSizeRel */,
+				D1A0A3D02F5943D08845DC67 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F89A241E45794F288824315B /* Build configuration list for PBXNativeTarget "ext_convertUTF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE35FE870DF04EAB8D61B504 /* Debug */,
+				C872FBFFF1E44570912968BD /* Release */,
+				0DC4E169732C4386BC44543A /* MinSizeRel */,
+				08DDFEFC758D4FC0B63A5C73 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60482AE84D774898B225B533 /* Project object */;
+}

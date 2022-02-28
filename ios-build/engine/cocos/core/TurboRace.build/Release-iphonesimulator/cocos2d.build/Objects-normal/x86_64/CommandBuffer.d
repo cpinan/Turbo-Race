@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/renderer/backend/CommandBuffer.cpp \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/renderer/backend/CommandBuffer.h \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/base/CCRef.h \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/platform/CCPlatformMacros.h \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/base/ccConfig.h \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/platform/CCPlatformConfig.h \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/platform/CCPlatformDefine.h \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/platform/ios/CCPlatformDefine-ios.h \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/renderer/backend/Macros.h \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/renderer/backend/Types.h \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/renderer/backend/RenderPassDescriptor.h \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/platform/CCStdC.h \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/platform/ios/CCStdC-ios.h \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/renderer/backend/ProgramState.h \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/base/CCEventListenerCustom.h \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/base/CCEventListener.h \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/renderer/backend/Program.h \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/renderer/backend/ShaderCache.h \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/renderer/backend/ShaderModule.h \
+  /Users/cpinan/Documents/PROJECTS/TurboRace/cocos2d/cocos/renderer/backend/VertexLayout.h

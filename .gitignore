@@ -42,6 +42,8 @@ ios-build/lib
 ios-build/TurboRace.build
 ios-build/Release-iphonesimulator
 ios-build/Debug-iphonesimulator
+ios-build/engine
+ios-build/CMakeFiles
 
 .DS_Store
 .cocos-project.json

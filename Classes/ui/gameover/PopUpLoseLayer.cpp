@@ -39,45 +39,39 @@ PopUpLoseLayer::PopUpLoseLayer() {
         badgeSprite->setPosition(Vec2(o.x, o.y + badgeSprite->getContentSize().height * 0.5f));
         bg->addChild(badgeSprite, 10);
         
-        scoreLabel = Label::createWithTTF("", FONT_GAME, SIZE_RATE_END);
-        scoreLabel->setPosition(Vec2(o.x + badgeSprite->getContentSize().width * 0.8f, o.y - badgeSprite->getContentSize().height * 0.1f));
+        scoreLabel = Label::createWithBMFont(FONT_GAME_BMP, "");
+        scoreLabel->setScale(0.5f);
+        scoreLabel->setPosition(Vec2(o.x + badgeSprite->getContentSize().width * 0.5f, o.y - badgeSprite->getContentSize().height * 0.1f));
         scoreLabel->setColor(Color3B(255, 255, 255));
         scoreLabel->setRotation(-3);
         bg->addChild(scoreLabel);
 
-        maxScoreLabel = Label::createWithTTF("", FONT_GAME, scoreLabel->getSystemFontSize());
+        maxScoreLabel = Label::createWithTTF("", FONT_GAME, SIZE_RATE_END);
         maxScoreLabel->setPosition(Vec2(scoreLabel->getPositionX(), scoreLabel->getPositionY() - badgeSprite->getContentSize().height * 0.28f));
         maxScoreLabel->setColor(Color3B(255, 255, 255));
         maxScoreLabel->setRotation(scoreLabel->getRotation());
         bg->addChild(maxScoreLabel);
         
-        // Send score button
-        MenuItemImage* itemScore = MenuItemImage::create("fb-icon.png", "fb-icon.png", CC_CALLBACK_1(PopUpLoseLayer::onOptionTapped, this));
-        itemScore->setTag(kTagSendScore);
-        itemScore->setPositionX(o.x - itemScore->getContentSize().width * 1.5f);
-        itemScore->setPositionY(o.y - itemScore->getContentSize().height * 1.7f);
-        
         // Home button
         MenuItemImage* itemHome = MenuItemImage::create("pause_home_off.png", "pause_home.png", CC_CALLBACK_1(PopUpLoseLayer::onOptionTapped, this));
         itemHome->setTag(kTagGoHome);
-        itemHome->setPositionX(itemScore->getPositionX() + itemScore->getContentSize().width * 1.5f);
-        itemHome->setPositionY(itemScore->getPositionY());
+        itemHome->setPositionX(o.x - itemHome->getContentSize().width * 0.5f);
+        itemHome->setPositionY(o.y - itemHome->getContentSize().height * 1.7f);
         
         // Play again button
         MenuItemImage* itemPlayAgain = MenuItemImage::create("pause_replay_off.png", "pause_replay.png", CC_CALLBACK_1(PopUpLoseLayer::onOptionTapped, this));
         itemPlayAgain->setTag(kTagPlayAgain);
-        itemPlayAgain->setPositionX(itemHome->getPositionX() + itemScore->getContentSize().width * 1.5f);
-        itemPlayAgain->setPositionY(itemScore->getPositionY());
+        itemPlayAgain->setPositionX(itemHome->getPositionX() + itemHome->getContentSize().width * 1.4f);
+        itemPlayAgain->setPositionY(itemHome->getPositionY());
         
-        itemPlayAgain->setPositionY(itemPlayAgain->getPositionY() + itemScore->getContentSize().height * 0.2f);
-        itemHome->setPositionY(itemHome->getPositionY() + itemScore->getContentSize().height * 0.1f);
+        itemPlayAgain->setPositionY(itemPlayAgain->getPositionY() + itemHome->getContentSize().height * 0.2f);
+        itemHome->setPositionY(itemHome->getPositionY() + itemHome->getContentSize().height * 0.1f);
         
         // Menu
         Menu* menu = Menu::create();
         menu->setAnchorPoint(Vec2(0, 0));
         menu->setPosition(Vec2(0, 0));
         
-        menu->addChild(itemScore);
         menu->addChild(itemHome);
         menu->addChild(itemPlayAgain);
         
@@ -87,7 +81,7 @@ PopUpLoseLayer::PopUpLoseLayer() {
 
 void PopUpLoseLayer::updateScore(int level, float score, int obstaclesAvoided)
 {
-    std::string scoreText = StringUtils::format("%d (%d x %d)", (int) score, obstaclesAvoided, (int) kScoreFactor);
+    std::string scoreText = StringUtils::format("%d = %d x %d", (int) score, obstaclesAvoided, (int) kScoreFactor);
     scoreLabel->setString(scoreText);
     
     long longScore = (long) score;

@@ -74,6 +74,7 @@ enum GameDeep
 class GameLayer : public cocos2d::Layer {
 public:
     
+    ~GameLayer();
     GameLayer(HudLayer* hudLayer, GameMode gameMode = kGameModeHome, GameLevel = kGameLevelNone);
     
     void configureGame(GameLevel gameLevel = kGameLevelEasy);
@@ -85,7 +86,7 @@ public:
     
     void update(float dt);
     
-    void didAccelerate(cocos2d::Acceleration *pAccelerationValue);
+    void didAccelerate(cocos2d::Acceleration *pAccelerationValue, cocos2d::Event* event);
         
     void onEnterTransitionDidFinish();
     

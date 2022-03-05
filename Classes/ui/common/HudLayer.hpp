@@ -21,6 +21,7 @@ public:
     void updateControl(BaseVehicle& player, float dt);
     void runTutorialJoypad();
     void stopTutorialJoypad();
+    void updateVisibility();
     
 private:
     cocos2d::Sprite* joypadBG;

@@ -10,22 +10,10 @@
 USING_NS_CC;
 
 SneakyJoystickSkinnedBase::~SneakyJoystickSkinnedBase() {
-    if(backgroundSprite) {
-        backgroundSprite = nullptr;
-    }
-    if(thumbSprite) {
-        thumbSprite = nullptr;
-    }
-    if(joystick) {
-        joystick = nullptr;
-    }
 }
 
 bool SneakyJoystickSkinnedBase::init() {
     if(Layer::init()) {
-        backgroundSprite = nullptr;
-        thumbSprite = nullptr;
-        joystick = nullptr;
         schedule(CC_SCHEDULE_SELECTOR(SneakyJoystickSkinnedBase::updatePositions));
         return true;
     }
@@ -49,13 +37,10 @@ void SneakyJoystickSkinnedBase::setBackgroundSprite(cocos2d::Sprite *sprite) {
     if(backgroundSprite){
         if(backgroundSprite->getParent())
             backgroundSprite->getParent()->removeChild(backgroundSprite, true);
-        backgroundSprite->release();
     }
-    sprite->retain();
     backgroundSprite = sprite;
     if(sprite){
         this->addChild(backgroundSprite, 0);
-        
         this->setContentSize(backgroundSprite->getContentSize());
     }
 }
@@ -64,9 +49,7 @@ void SneakyJoystickSkinnedBase::setThumbSprite(cocos2d::Sprite *sprite) {
     if(thumbSprite){
         if(thumbSprite->getParent())
             thumbSprite->getParent()->removeChild(thumbSprite, true);
-        thumbSprite->release();
     }
-    sprite->retain();
     thumbSprite = sprite;
     if(sprite){
         thumbStartPosition.x = backgroundSprite->getContentSize().width * 0.5f;

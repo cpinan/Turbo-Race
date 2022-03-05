@@ -10,35 +10,10 @@
 USING_NS_CC;
 
 SneakyButtonSkinnedBase::~SneakyButtonSkinnedBase() {
-    if(defaultSprite) {
-        defaultSprite->release();
-        defaultSprite = nullptr;
-    }
-    if(activatedSprite) {
-        activatedSprite->release();
-        activatedSprite = nullptr;
-    }
-    if(disabledSprite) {
-        disabledSprite->release();
-        disabledSprite = nullptr;
-    }
-    if(pressSprite) {
-        pressSprite->release();
-        pressSprite = nullptr;
-    }
-    if(button) {
-        button->release();
-        button = nullptr;
-    }
 }
 
 bool SneakyButtonSkinnedBase::init() {
     if(Layer::init()) {
-        defaultSprite = nullptr;
-        activatedSprite = nullptr;
-        disabledSprite = nullptr;
-        pressSprite = nullptr;
-        button = nullptr;
         schedule(CC_SCHEDULE_SELECTOR(SneakyButtonSkinnedBase::watchSelf));
     }
     return false;
@@ -92,7 +67,6 @@ void SneakyButtonSkinnedBase::setDefaultSprite(cocos2d::Sprite *sprite) {
         defaultSprite->release();
     }
     if(sprite) {
-        sprite->retain();
         defaultSprite = sprite;
         addChild(sprite, 0);
         setContentSize(sprite->getContentSize());
@@ -107,7 +81,6 @@ void SneakyButtonSkinnedBase::setActivatedSprite(cocos2d::Sprite *sprite) {
         activatedSprite->release();
     }
     if(sprite) {
-        sprite->retain();
         activatedSprite = sprite;
         addChild(sprite, 1);
         setContentSize(sprite->getContentSize());
@@ -122,7 +95,6 @@ void SneakyButtonSkinnedBase::setDisabledSprite(cocos2d::Sprite *sprite) {
         disabledSprite->release();
     }
     if(sprite) {
-        sprite->retain();
         disabledSprite = sprite;
         addChild(sprite, 2);
         setContentSize(sprite->getContentSize());
@@ -137,7 +109,6 @@ void SneakyButtonSkinnedBase::setPressSprite(cocos2d::Sprite *sprite) {
         pressSprite->release();
     }
     if(sprite) {
-        sprite->retain();
         pressSprite = sprite;
         addChild(sprite, 3);
         setContentSize(sprite->getContentSize());
@@ -145,14 +116,10 @@ void SneakyButtonSkinnedBase::setPressSprite(cocos2d::Sprite *sprite) {
 }
 
 void SneakyButtonSkinnedBase::setButton(SneakyButton *button) {
-    if(this->button) {
-        if(this->button->getParent()) {
-            this->button->getParent()->removeChild(this->button);
-        }
-        this->button->release();
+    if(this->button->getParent()) {
+        this->button->getParent()->removeChild(this->button);
     }
     if(button) {
-        button->retain();
         this->button = button;
         addChild(button, 4);
         if(defaultSprite) {

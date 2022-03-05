@@ -8,6 +8,7 @@
 #include "HudLayer.hpp"
 #include "../../common/Constants.h"
 #include "../../common/SneakyInput/SneakyJoystickSkinnedBase.hpp"
+#include "../../common/LocalStorageManager.hpp"
 #include "audio/include/AudioEngine.h"
 
 #define JOYPAD_BG "joystick.png"
@@ -71,4 +72,12 @@ void HudLayer::updateControl(BaseVehicle& player, float dt) {
     Point velocity = joypad->getVelocity();
     velocity = joypad->getVelocity() * player.getSpeed();
     player.doMove(velocity);
+}
+
+void HudLayer::updateVisibility() {
+    if(!LocalStorageManager::isUsingJoypad()) {
+        joypad->setVisible(false);
+    } else {
+        joypad->setVisible(true);
+    }
 }

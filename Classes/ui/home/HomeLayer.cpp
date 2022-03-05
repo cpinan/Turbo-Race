@@ -115,12 +115,12 @@ HomeLayer::HomeLayer(GameLayer* gameLayer) : _gameLayer(gameLayer) {
     menuRateApp->setVisible(false);
     
     // How to Player
-    Label* lblHowToPlay = Label::createWithTTF("How to Play", FONT_GAME, SIZE_RATE_APP);
+    Label* lblHowToPlay = Label::createWithTTF("How to Play", FONT_GAME, SIZE_RATE_HOW_TO_PLAY);
     lblHowToPlay->setColor(Color3B(255, 255, 255));
     
     menuHowToPlay = MenuItemLabel::create(lblHowToPlay, CC_CALLBACK_1(HomeLayer::_onOptionPressed, this));
     menuHowToPlay->setTag(kTagHowToPlay);
-    menuHowToPlay->setPositionX(menuRateApp->getPositionX() - menuHowToPlay->getContentSize().width * 1.3f);
+    menuHowToPlay->setPositionX(menuRateApp->getPositionX() - menuHowToPlay->getContentSize().width * 0.2f);
     menuHowToPlay->setPositionY(menuRateApp->getPositionY());
     menuHowToPlay->runAction(RepeatForever::create(Sequence::create(RotateTo::create(0.5f, -2), RotateTo::create(0.5f, 2), NULL)));
     
@@ -132,7 +132,7 @@ HomeLayer::HomeLayer(GameLayer* gameLayer) : _gameLayer(gameLayer) {
     MenuItemImage* menuSoundOff = MenuItemImage::create("sound_off_off.png", "sound_off.png");
     
     menuSound = MenuItemToggle::createWithCallback(CC_CALLBACK_1(HomeLayer::_manageMusic, this), menuSoundOn, menuSoundOff, nullptr);
-    menuSound->setPositionX(menuItemLeaderboard->getPositionX() + menuItemAchievements->getContentSize().width * 1.2f);
+    menuSound->setPositionX(menuItemEasy->getPositionX() + menuSound->getContentSize().width * 0.6f);
     menuSound->setPositionY(menuItemLeaderboard->getPositionY());
     
     if(LocalStorageManager::isMute())
@@ -144,11 +144,11 @@ HomeLayer::HomeLayer(GameLayer* gameLayer) : _gameLayer(gameLayer) {
     menu->addChild(menuItemEasy);
     menu->addChild(menuItemNormal);
     menu->addChild(menuItemHard);
-    menu->addChild(menuItemLeaderboard);
-    menu->addChild(menuItemAchievements);
+    //menu->addChild(menuItemLeaderboard);
+    //menu->addChild(menuItemAchievements);
     menu->addChild(menuItemSettings);
     menu->addChild(menuSound);
-    menu->addChild(menuRateApp);
+    //menu->addChild(menuRateApp);
     menu->addChild(menuHowToPlay);
     
     addChild(menu);
@@ -239,15 +239,15 @@ void HomeLayer::_hideToLeft() {
     menuItemEasy->runAction(move->clone());
     menuItemNormal->runAction(move->clone());
     menuItemHard->runAction(move->clone());
-    menuItemAchievements->runAction(move->clone());
-    menuItemLeaderboard->runAction(move->clone());
+    //menuItemAchievements->runAction(move->clone());
+    //menuItemLeaderboard->runAction(move->clone());
     menuSound->runAction(move->clone());
 }
 
 void HomeLayer::_hideToRight() {
     MoveBy* move = MoveBy::create(HIDE_TIME, Vec2(WIN_SIZE.width * 0.8f, 0));
     menuItemSettings->runAction(move->clone());
-    menuRateApp->runAction(move->clone());
+    //menuRateApp->runAction(move->clone());
     menuHowToPlay->runAction(move->clone());
     logo->runAction(move->clone());
 }

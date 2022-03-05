@@ -94,6 +94,9 @@ vector<MusicPlaying> _vectorMusics;
 MusicPlaying _music;
 
 // End Level definition
+GameLayer::~GameLayer() {
+    Device::setAccelerometerEnabled(false);
+}
 
 GameLayer::GameLayer(HudLayer* hudLayer, GameMode gameMode, GameLevel gameLevel) : _hudLayer(hudLayer), _gameMode(gameMode)
 {
@@ -180,22 +183,21 @@ void GameLayer::_selectRandomMusic() {
     
 }
 
-void GameLayer::_showAudioPlaying()
-{
+void GameLayer::_showAudioPlaying() {
     Point origin = Director::getInstance()->getVisibleOrigin();
     Size visibleSize = Director::getInstance()->getVisibleSize();
     Size winSize = Director::getInstance()->getWinSize();
     
     string playingMusicText = StringUtils::format("Playing %s", _music.description);
     Label* lblMusic = Label::createWithTTF(playingMusicText, FONT_GAME, 35.0f);
-    
-    lblMusic->setPositionX(origin.x + visibleSize.width * 0.55f);
+    lblMusic->setAnchorPoint(Vec2(0, 0.5f));
+    auto musicSize = lblMusic->getContentSize();
+    lblMusic->setPositionX(origin.x + visibleSize.width - musicSize.width * 1.1f);
     lblMusic->setPositionY(origin.y - visibleSize.height * 0.25f);
     
     MoveTo* ac1 = MoveTo::create(1.0f, Vec2(lblMusic->getPositionX(), origin.y + visibleSize.height * 0.05f));
     
     DelayTime* ac2 = DelayTime::create(2.1f);
-    
     FadeOut* ac3 = FadeOut::create(0.9f);
     CallFuncN* ac4 = CallFuncN::create(CC_CALLBACK_1(GameLayer::_removeNode, this));
     
@@ -210,7 +212,6 @@ void GameLayer::_showAudioPlaying()
 
 void GameLayer::refreshLayer() {
     AudioEngine::stopAll();
-    unscheduleAllCallbacks();
     
     _eventDispatcher->removeCustomEventListeners(NOTIFICATION_PAUSE_GAME);
     _eventDispatcher->removeCustomEventListeners(NOTIFICATION_RESUME_GAME);
@@ -627,7 +628,7 @@ void GameLayer::_createMultipleObstacles(float x, int type) {
 
 #pragma mark - Accelerometer manager
 
-void GameLayer::didAccelerate(Acceleration *pAccelerationValue) {
+void GameLayer::didAccelerate(Acceleration *pAccelerationValue, Event* event) {
     if(!_pause && !_gameOver)
     {
         if(_gameState == kGameReady)
@@ -651,7 +652,11 @@ void GameLayer::runGame() {
     
     if(!_isJoypad) {
         _accelerometerEnabled = true;
+        Device::setAccelerometerEnabled(true);
+        auto listener = EventListenerAcceleration::create(CC_CALLBACK_2(GameLayer::didAccelerate, this));
+        _eventDispatcher->addEventListenerWithSceneGraphPriority(listener, this);
     }
+    _hudLayer->updateVisibility();
     
     unscheduleUpdate();
     scheduleUpdate();
